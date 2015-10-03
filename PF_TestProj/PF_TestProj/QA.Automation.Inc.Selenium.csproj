@@ -67,6 +67,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Classes\WebDriverExtensions.cs" />
+    <Compile Include="Tests\AutomationGuidePage.cs" />
     <Compile Include="Tests\SampleTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -74,7 +76,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Classes\" />
     <Folder Include="Enumerations\" />
     <Folder Include="Utilities\" />
   </ItemGroup>
